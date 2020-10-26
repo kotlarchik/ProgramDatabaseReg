@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="48.0" layoutY="43.0" text="ID:">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label layoutX="48.0" layoutY="91.0" text="Имя:">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label layoutX="48.0" layoutY="143.0" text="Фамилия:">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label layoutX="47.0" layoutY="193.0" text="Возраст:">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label layoutX="47.0" layoutY="243.0" text="Email:">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label layoutX="47.0" layoutY="292.0" text="Password:">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <TextField fx:id="txtID" layoutX="154.0" layoutY="43.0" prefWidth="200.0" />
+      <TextField fx:id="txtName" layoutX="154.0" layoutY="91.0" prefWidth="200.0" />
+      <TextField fx:id="txtLastname" layoutX="154.0" layoutY="143.0" prefWidth="200.0" />
+      <TextField fx:id="txtAge" layoutX="154.0" layoutY="193.0" prefWidth="200.0" />
+      <TextField fx:id="txtEmail" layoutX="154.0" layoutY="243.0" prefWidth="200.0" />
+      <Label fx:id="txtStatus" alignment="CENTER" contentDisplay="CENTER" layoutX="154.0" layoutY="324.0" prefHeight="25.0" prefWidth="200.0" textAlignment="CENTER" />
+      <Button layoutX="47.0" layoutY="405.0" mnemonicParsing="false" onAction="#pressInsert" text="Добавить">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="139.0" layoutY="405.0" mnemonicParsing="false" onAction="#pressUpdate" text="Обновить">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="234.0" layoutY="405.0" mnemonicParsing="false" onAction="#pressDelete" text="Удалить">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="331.0" layoutY="405.0" mnemonicParsing="false" onAction="#pressSelect" text="Проверить">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="txtPass" layoutX="154.0" layoutY="292.0" prefHeight="25.0" prefWidth="200.0" />
+      <Button layoutX="372.0" layoutY="349.0" mnemonicParsing="false" onAction="#pressClear" prefHeight="25.0" prefWidth="52.0" text="Clear" />
+      <Button layoutX="47.0" layoutY="356.0" mnemonicParsing="false" onAction="#pressSignIn" text="Вход">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Button>
+   </children>
+</Pane>
